@@ -12,7 +12,7 @@ Keyboards.lkt = {
     i: 'í',
     o: 'ó',
     u: 'ú',
-    '.': ',?!@#'
+    '.': ',?!@'
   },
   keys: [
     [
@@ -25,7 +25,7 @@ Keyboards.lkt = {
       { value: 'l' }
     ], [
       { value: '⇪', ratio: 1.5, keyCode: KeyEvent.DOM_VK_CAPS_LOCK },
-      { value: 'z' }, { value: 'ž' }, { value: 'č' }, { value: 'v' },
+      { value: 'z' }, { value: 'ž' }, { value: 'č' }, { value: '’' },
       { value: 'b' }, { value: 'n' }, { value: 'm' },
       { value: '⌫', ratio: 1.5, keyCode: KeyEvent.DOM_VK_BACK_SPACE }
     ], [
